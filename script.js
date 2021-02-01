@@ -336,3 +336,8 @@ const testFun = function(){
 console.log("CI/CD with Netlify Tested");
 };
 testFun();
+
+const testFunAgain = function(){
+    console.log("Workout testing done");
+    };
+    testFunAgain();
