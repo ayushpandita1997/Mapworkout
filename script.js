@@ -331,3 +331,8 @@ _setLocalStorage(){
 };
 const app = new Application();
 app._getPosition();
+
+const testFun = function(){
+console.log("git test function");
+};
+testFun();
