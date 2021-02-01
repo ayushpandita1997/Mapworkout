@@ -333,6 +333,6 @@ const app = new Application();
 app._getPosition();
 
 const testFun = function(){
-console.log("git test function");
+console.log("CI/CD with Netlify Tested");
 };
 testFun();
