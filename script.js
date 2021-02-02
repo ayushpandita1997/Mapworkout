@@ -320,7 +320,7 @@ _setLocalStorage(){
 
     _getLocalStorage(){
       const data =  JSON.parse(localStorage.getItem('workouts'))
-        console.log(data);
+        // console.log(data);
         if(!data) return
         this.#workouts = data;
         this.#workouts.forEach(works => {
@@ -336,8 +336,3 @@ const testFun = function(){
 console.log("CI/CD with Netlify Tested");
 };
 testFun();
-
-const testFunAgain = function(){
-    console.log("Workout testing done");
-    };
-    testFunAgain();
